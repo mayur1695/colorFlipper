@@ -1,0 +1,101 @@
+/* *{
+    background-color: grey;
+    color: beige;
+} */
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;}
+
+.nav {
+    border:2px soid red;
+    background-color: rgb(112, 89, 89);
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow:gold;
+  
+  }
+  .nav-center {
+    width: 90vw;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(112, 89, 89);
+    height: 100px;
+    border-radius: 20px;
+  }
+  .nav-center h4 {
+    margin-bottom: 0;
+    color: var(--clr-primary-5);
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-links {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 85, 210);
+    text-decoration: none;
+    margin-right: 200px;
+    padding-top: 14px;
+  }
+  nav a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--clr-primary-1);
+    letter-spacing: var(--spacing);
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color:pink;
+
+  }
+  .hh1{
+    margin-left: 202px;
+    color: rgb(252, 85, 210);
+  }
+  .container{
+    border: 2px solid rgb(197, 161, 161);
+    margin: 22px;
+    padding: 22px;
+    background-color: black;
+    color: white;
+    width: 10px;
+    max-width: 100px;
+    border-radius: 20px;
+  }
+  main{
+    margin: auto;
+    width:500px;
+    margin-top: 150px;
+    /* background-color: rgb(23, 42, 218); */
+  }
+  .color{
+    margin-left: 10px;
+    color: rgb(116, 116, 201);
+  }
+  h3{
+    margin-left: 55px;
+  }
+  .clickme{
+    margin-left: 620px ;
+    font-weight: 2px;
+    
+  }
+  .btn{
+    border: 20px solid black;
+  }
